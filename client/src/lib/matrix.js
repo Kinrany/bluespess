@@ -67,4 +67,4 @@ class Matrix {
 
 Matrix.identity = new Matrix(1, 0, 0, 1, 0, 0);
 
-module.exports = Matrix;
+export default Matrix;

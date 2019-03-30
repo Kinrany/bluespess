@@ -1,6 +1,6 @@
 'use strict';
 const IconRenderer = require('./icon_renderer.js');
-const Matrix = require('./matrix.js');
+import Matrix from './matrix.js';
 const EventEmitter = require('events');
 
 class Atom extends EventEmitter {
